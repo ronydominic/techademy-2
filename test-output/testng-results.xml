@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-18T23:01:12 IST" name="Suite-lab-8" finished-at="2025-08-18T23:01:31 IST" duration-ms="18391">
+    <groups>
+    </groups>
+    <test started-at="2025-08-18T23:01:12 IST" name="Test-1" finished-at="2025-08-18T23:01:31 IST" duration-ms="18391">
+      <class name="aug18.Lab4Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:aug18.Lab4Test@707194ba]" started-at="2025-08-18T23:01:24 IST" name="setUp" finished-at="2025-08-18T23:01:25 IST" duration-ms="1027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="lab4()[pri:0, instance:aug18.Lab4Test@707194ba]" started-at="2025-08-18T23:01:25 IST" name="lab4" finished-at="2025-08-18T23:01:31 IST" duration-ms="5575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lab4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:aug18.Lab4Test@707194ba]" started-at="2025-08-18T23:01:31 IST" name="tearDown" finished-at="2025-08-18T23:01:31 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- aug18.Lab4Test -->
+      <class name="aug18.Lab3Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:aug18.Lab3Test@710f4dc7]" started-at="2025-08-18T23:01:13 IST" name="setUp" finished-at="2025-08-18T23:01:15 IST" duration-ms="2808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="lab3()[pri:0, instance:aug18.Lab3Test@710f4dc7]" started-at="2025-08-18T23:01:15 IST" name="lab3" finished-at="2025-08-18T23:01:24 IST" duration-ms="8278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lab3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:aug18.Lab3Test@710f4dc7]" started-at="2025-08-18T23:01:24 IST" name="tearDown" finished-at="2025-08-18T23:01:24 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- aug18.Lab3Test -->
+    </test> <!-- Test-1 -->
+  </suite> <!-- Suite-lab-8 -->
+</testng-results>

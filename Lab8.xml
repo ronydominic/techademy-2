@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite-lab-8">
+  <test thread-count="5" name="Test-1">
+    <classes>
+      <class name="aug18.Lab3Test"/>
+      <class name="aug18.Lab4Test"/>
+    </classes>
+  </test> <!-- Test-1 -->
+</suite> <!-- Suite-lab-8 -->
