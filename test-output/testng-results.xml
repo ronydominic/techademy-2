@@ -1,39 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-18T23:01:12 IST" name="Suite-lab-8" finished-at="2025-08-18T23:01:31 IST" duration-ms="18391">
+  <suite started-at="2025-08-19T14:41:45 IST" name="Suite" finished-at="2025-08-19T14:42:09 IST" duration-ms="24329">
     <groups>
     </groups>
-    <test started-at="2025-08-18T23:01:12 IST" name="Test-1" finished-at="2025-08-18T23:01:31 IST" duration-ms="18391">
-      <class name="aug18.Lab4Test">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:aug18.Lab4Test@707194ba]" started-at="2025-08-18T23:01:24 IST" name="setUp" finished-at="2025-08-18T23:01:25 IST" duration-ms="1027" status="PASS">
+    <test started-at="2025-08-19T14:41:45 IST" name="ChromeTest" finished-at="2025-08-19T14:42:08 IST" duration-ms="23348">
+      <class name="aug19.Lab3Test">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:aug19.Lab3Test@8297b3a]" started-at="2025-08-19T14:41:45 IST" name="setUp" finished-at="2025-08-19T14:41:50 IST" duration-ms="5422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="lab4()[pri:0, instance:aug18.Lab4Test@707194ba]" started-at="2025-08-18T23:01:25 IST" name="lab4" finished-at="2025-08-18T23:01:31 IST" duration-ms="5575" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lab4 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:aug18.Lab4Test@707194ba]" started-at="2025-08-18T23:01:31 IST" name="tearDown" finished-at="2025-08-18T23:01:31 IST" duration-ms="282" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- aug18.Lab4Test -->
-      <class name="aug18.Lab3Test">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:aug18.Lab3Test@710f4dc7]" started-at="2025-08-18T23:01:13 IST" name="setUp" finished-at="2025-08-18T23:01:15 IST" duration-ms="2808" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="lab3()[pri:0, instance:aug18.Lab3Test@710f4dc7]" started-at="2025-08-18T23:01:15 IST" name="lab3" finished-at="2025-08-18T23:01:24 IST" duration-ms="8278" status="PASS">
+        <test-method signature="lab3()[pri:0, instance:aug19.Lab3Test@8297b3a]" started-at="2025-08-19T14:41:50 IST" name="lab3" finished-at="2025-08-19T14:41:59 IST" duration-ms="8999" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lab3 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:aug18.Lab3Test@710f4dc7]" started-at="2025-08-18T23:01:24 IST" name="tearDown" finished-at="2025-08-18T23:01:24 IST" duration-ms="330" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:aug19.Lab3Test@8297b3a]" started-at="2025-08-19T14:41:59 IST" name="tearDown" finished-at="2025-08-19T14:42:00 IST" duration-ms="572" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- aug18.Lab3Test -->
-    </test> <!-- Test-1 -->
-  </suite> <!-- Suite-lab-8 -->
+      </class> <!-- aug19.Lab3Test -->
+      <class name="aug19.Lab4Test">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:aug19.Lab4Test@5b94b04d]" started-at="2025-08-19T14:42:00 IST" name="setUp" finished-at="2025-08-19T14:42:01 IST" duration-ms="1604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="lab4()[pri:0, instance:aug19.Lab4Test@5b94b04d]" started-at="2025-08-19T14:42:01 IST" name="lab4" finished-at="2025-08-19T14:42:08 IST" duration-ms="6302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lab4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:aug19.Lab4Test@5b94b04d]" started-at="2025-08-19T14:42:08 IST" name="tearDown" finished-at="2025-08-19T14:42:08 IST" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- aug19.Lab4Test -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2025-08-19T14:41:45 IST" name="EdgeTest" finished-at="2025-08-19T14:42:09 IST" duration-ms="24329">
+      <class name="aug19.Lab3Test">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:aug19.Lab3Test@3571b748]" started-at="2025-08-19T14:41:45 IST" name="setUp" finished-at="2025-08-19T14:41:50 IST" duration-ms="5422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="lab3()[pri:0, instance:aug19.Lab3Test@3571b748]" started-at="2025-08-19T14:41:50 IST" name="lab3" finished-at="2025-08-19T14:42:00 IST" duration-ms="9451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lab3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:aug19.Lab3Test@3571b748]" started-at="2025-08-19T14:42:00 IST" name="tearDown" finished-at="2025-08-19T14:42:00 IST" duration-ms="517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- aug19.Lab3Test -->
+      <class name="aug19.Lab4Test">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:aug19.Lab4Test@3e96bacf]" started-at="2025-08-19T14:42:00 IST" name="setUp" finished-at="2025-08-19T14:42:02 IST" duration-ms="2222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="lab4()[pri:0, instance:aug19.Lab4Test@3e96bacf]" started-at="2025-08-19T14:42:02 IST" name="lab4" finished-at="2025-08-19T14:42:09 IST" duration-ms="6296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lab4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:aug19.Lab4Test@3e96bacf]" started-at="2025-08-19T14:42:09 IST" name="tearDown" finished-at="2025-08-19T14:42:09 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- aug19.Lab4Test -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
 </testng-results>

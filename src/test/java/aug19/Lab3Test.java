@@ -1,13 +1,15 @@
-package aug18;
+package aug19;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.AfterMethod;
 import org.testng.Assert;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -21,9 +23,18 @@ public class Lab3Test {
     private Map<String, Object> vars;
     JavascriptExecutor js;
 
+    @Parameters("browser")
+
     @BeforeMethod
-    public void setUp() {
-        driver = new ChromeDriver();
+    public void setUp(String browser) {
+    	if(browser.equalsIgnoreCase("chrome")) {
+            driver = new ChromeDriver();
+
+    	}
+    	
+    	else if (browser.equalsIgnoreCase("edge")) {
+    		driver = new EdgeDriver();
+    	}
         js = (JavascriptExecutor) driver;
         vars = new HashMap<String, Object>();
     }
