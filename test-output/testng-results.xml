@@ -2,24 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-22T08:57:29 IST" name="Default suite" finished-at="2025-08-22T08:57:40 IST" duration-ms="11216">
+  <suite started-at="2025-08-23T08:16:10 IST" name="Default suite" finished-at="2025-08-23T08:16:19 IST" duration-ms="8454">
     <groups>
     </groups>
-    <test started-at="2025-08-22T08:57:29 IST" name="Default test" finished-at="2025-08-22T08:57:40 IST" duration-ms="11216">
-      <class name="aug20.lab11.Lab11_Lab4">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:aug20.lab11.Lab11_Lab4@2df3b89c]" started-at="2025-08-22T08:57:29 IST" name="setUp" finished-at="2025-08-22T08:57:31 IST" duration-ms="2646" status="PASS">
+    <test started-at="2025-08-23T08:16:10 IST" name="Default test" finished-at="2025-08-23T08:16:19 IST" duration-ms="8454">
+      <class name="aug21.lab12.Lab12">
+        <test-method signature="f()[pri:0, instance:aug21.lab12.Lab12@b2c9a9c]" started-at="2025-08-23T08:16:10 IST" name="f" finished-at="2025-08-23T08:16:19 IST" duration-ms="8338" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="lab4Flow()[pri:0, instance:aug20.lab11.Lab11_Lab4@2df3b89c]" started-at="2025-08-22T08:57:31 IST" name="lab4Flow" finished-at="2025-08-22T08:57:39 IST" duration-ms="8097" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lab4Flow -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:aug20.lab11.Lab11_Lab4@2df3b89c]" started-at="2025-08-22T08:57:39 IST" name="tearDown" finished-at="2025-08-22T08:57:40 IST" duration-ms="378" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- aug20.lab11.Lab11_Lab4 -->
+        </test-method> <!-- f -->
+      </class> <!-- aug21.lab12.Lab12 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
