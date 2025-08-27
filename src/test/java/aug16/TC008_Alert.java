@@ -23,6 +23,7 @@ public class TC008_Alert {
 		System.out.println("Confirm alert: " + cAlert.getText());
 		cAlert.dismiss();
 		
+		
 		driver.findElement(By.id("prompt")).click();
 		Alert pAlert = driver.switchTo().alert();
 		System.out.println("Prompt alert: " + pAlert.getText());
